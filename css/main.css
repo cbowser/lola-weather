@@ -79,8 +79,7 @@ textarea:focus, input:focus{
   background-position: center;
   background-size: contain;
   height:75vh;
-  width:100%;
-  border: 20px solid white;
+  width: 100%;
 }
 
 
@@ -119,6 +118,7 @@ img {
 
 .warm .lolas {
   background-image: url(/images/lola-cloud.svg);
+
 }
 
 .cold .lolas {
