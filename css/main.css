@@ -79,7 +79,7 @@ textarea:focus, input:focus{
   background-size: contain;
   height: 60vh;
   width: 100%;
-  border: 60px solid #EEEEEE;
+  border: 20px solid #EEEEEE;
 }
 
 
