@@ -44,7 +44,11 @@ font-weight: 700;
 
 .tempy {
   color: #4F545E;
-  font-size: 3rem;
+  font-size: 5rem;
+}
+
+.bluedark {
+  color: #4F545E;
 }
 
 
@@ -111,6 +115,11 @@ img {
 }
 
 
+/*heights*/
+.footer {
+position: relative;
+bottom: 0;
+}
 
 
 

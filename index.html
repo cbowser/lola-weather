@@ -36,6 +36,21 @@
 <div class="maincontent flex flex-column justify-between">
 
 
+<div class="flex flex-row justify-between">
+    <div class="ttu tracked f4 pa3 bluedark">
+    <p><span class="" id="location-name"></span></p>
+    </div>
+
+  <!--input form-->
+  <div class="lightgray flex flex-row pa3">
+    <div class="pr1">
+      <p class="">Location:</p>
+    </div>
+      <form class="" id="location-search" class="">
+      <input class="f5 lightgray source" type="text" id="area" value="Boston">
+      </form>
+  </div>
+</div>
 
 
 
@@ -44,7 +59,7 @@
   </div>
 
   <!--SECOND DIV IN FLEX BOX, TEMPS-->
-  <div class="content flex flex-column ph4 pt3">
+  <div class="content flex flex-column pa3 pt2">
 
 
             <!--current temp-->
@@ -65,15 +80,7 @@
 
     </div>
 
-    <!--input form-->
-    <div class="lightgray flex flex-row ph4 pt3">
-      <div class="pr1">
-        <p class="">Location:</p>
-      </div>
-        <form class="" id="location-search" class="">
-        <input class="f5 lightgray source" type="text" id="area" value="Boston">
-        </form>
-    </div>
+
 
 
 
@@ -89,57 +96,27 @@
 
 
 
+<!--footer-->
 
-
-
-
-
-
-
-<!--hidden information (can't delete)-->
-<div class="hidethis">
-  <div class="">
-  <span id="condition-description"></span>
-  </div>
-
-
-  <div class="ttu tracked pb2 tl f3">
-  <p><span class="hidethis" id="location-name"></span></p>
-  </div>
-
-<!--country-->
-  <div class="">
-    <p><span class="" id="country"></span></p>
-  </div>
-
-
-  <!--max and min temps-->
-  <div class="flex flex-row justify-center f5 pt3 sourcemed">
-   <p class="pr2"><span id="temp-max">&deg;</span>&deg; F</p>
-
-   <p> / </p>
-
-    <p class="pl2"><span id="temp-min">&deg;</span>&deg; F</p>
-  </div>
-
-
-  <div class="flex flex-row justify-between ph5 pt5 pb0">
-              <!--conditions-->
-              <div class="tc ttu">
-                <p class="f7 pb1">Conditions</p>
-                <p class="f5 sourcemed"><span id="condition"></span></p>
-              </div>
-
-              <!--wind speed-->
-              <div class="tc ttu">
-                <p class="f7 pb1">Wind Speed</p>
-                <p class="f5 sourcemed"><span id="wind-speed"></span> mph </p>
-              </div>
-
-  </div>
-
-
+<footer class="flex flex-row justify-between pa3">
+<div class="w-33">
+  <img class="mw-100" src="images/hanger.svg" alt="">
 </div>
+<div class="w-33">
+  <img class="mw-100" src="images/hanger.svg" alt="">
+</div>
+<div class="w-33">
+  <img class="mw-100" src="images/hanger.svg" alt="">
+</div>
+
+</footer>
+
+
+
+
+
+
+
 
 
 
@@ -148,6 +125,51 @@
   <!--end main body div-->
   </div>
 
+
+  <!--hidden information (can't delete)-->
+  <div class="hidethis">
+    <div class="">
+    <span id="condition-description"></span>
+    </div>
+
+
+    <div class="ttu tracked pb2 tl f3">
+    <p><span class="hidethis" id="location-name"></span></p>
+    </div>
+
+  <!--country-->
+    <div class="">
+      <p><span class="" id="country"></span></p>
+    </div>
+
+
+    <!--max and min temps-->
+    <div class="flex flex-row justify-center f5 pt3 sourcemed">
+     <p class="pr2"><span id="temp-max">&deg;</span>&deg; F</p>
+
+     <p> / </p>
+
+      <p class="pl2"><span id="temp-min">&deg;</span>&deg; F</p>
+    </div>
+
+
+    <div class="flex flex-row justify-between ph5 pt5 pb0">
+                <!--conditions-->
+                <div class="tc ttu">
+                  <p class="f7 pb1">Conditions</p>
+                  <p class="f5 sourcemed"><span id="condition"></span></p>
+                </div>
+
+                <!--wind speed-->
+                <div class="tc ttu">
+                  <p class="f7 pb1">Wind Speed</p>
+                  <p class="f5 sourcemed"><span id="wind-speed"></span> mph </p>
+                </div>
+
+    </div>
+
+
+  </div>
 
 
 
