@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lola's Weather App</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700" rel="stylesheet">
+  </head>
+
+
+
+
+  <!--BODY-->
+  <body>
+
+
+
+    <!--error message-->
+    <div id="error" class="dn bg-blue white fixed bottom-0 w-100 pa4">
+    Sorry we couldn't find that city</div>
+
+
+
+
+  <!--MAIN BODY DIV-->
+  <div class="source">
+
+    <!--input form-->
+    <div class="flex flex-row-ns flex-column items-center tc pl4 pt4">
+      <div class="pr2 pb2 lightgray f4">
+        <p>Location:</p>
+      </div>
+        <form class="" id="location-search" class="">
+        <input class="f4 ttu pt0-ns lightgray" type="text" id="area" value="Boston">
+        </form>
+    </div>
+
+    <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
+
+<!--MAIN FLEX BOX-->
+<div class="maincontent flex flex-column justify-between">
+
+  <!--FIRST DIV IN FLEX BOX, LOLA IMAGES-->
+  <div class="lolas center bg-white">
+  </div>
+
+  <!--SECOND DIV IN FLEX BOX, TEMPS-->
+  <div class="content flex flex-column ph4">
+
+
+
+            <!--current temp-->
+            <div class="tempy tl">
+            <p class="">  <span id="temp"></span>&deg; F</p>
+            </div>
+
+            <!--description-->
+            <div class="flex flex-column">
+
+
+            <p class="lightgray f4 pb1">Today's Essentials:</p>
+            <p class="lightgray f4">Sunnies, Towel, Pina Colada</p>
+          </div>
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--hidden information (can't delete)-->
+<div class="hidethis">
+  <div class="">
+  <span id="condition-description"></span>
+  </div>
+
+
+  <div class="ttu tracked pb2 tl f3">
+  <p><span class="hidethis" id="location-name"></span></p>
+  </div>
+
+<!--country-->
+  <div class="">
+    <p><span class="" id="country"></span></p>
+  </div>
+
+
+  <!--max and min temps-->
+  <div class="flex flex-row justify-center f5 pt3 sourcemed">
+   <p class="pr2"><span id="temp-max">&deg;</span>&deg; F</p>
+
+   <p> / </p>
+
+    <p class="pl2"><span id="temp-min">&deg;</span>&deg; F</p>
+  </div>
+
+
+  <div class="flex flex-row justify-between ph5 pt5 pb0">
+              <!--conditions-->
+              <div class="tc ttu">
+                <p class="f7 pb1">Conditions</p>
+                <p class="f5 sourcemed"><span id="condition"></span></p>
+              </div>
+
+              <!--wind speed-->
+              <div class="tc ttu">
+                <p class="f7 pb1">Wind Speed</p>
+                <p class="f5 sourcemed"><span id="wind-speed"></span> mph </p>
+              </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+
+  <!--end main body div-->
+  </div>
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+  <!--Scripts-->
+  <script src="/scripts/main.js" charset="utf-8"></script>
+    <script src="/scripts/weather.js" charset="utf-8"></script>
+
+</html>
