@@ -44,7 +44,7 @@ font-weight: 700;
 
 .tempy {
   color: #4F545E;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 
@@ -61,7 +61,6 @@ textarea:focus, input:focus{
 }
 
 
-
 /*main flex box*/
 .maincontent {
   min-height:100vh;
@@ -75,12 +74,13 @@ textarea:focus, input:focus{
 
 /*LOLA background image, border adds fake padding   */
 .lolas {
+  position: absolute;
   background-repeat:no-repeat;
   background-position: center;
   background-size: contain;
-  height:50vh;
+  height:75vh;
   width:100%;
-  border: 40px solid white;
+  border: 20px solid white;
 }
 
 
@@ -89,7 +89,7 @@ textarea:focus, input:focus{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50vh;
+  height: 20vh;
 }
 
 
