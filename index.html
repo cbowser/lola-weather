@@ -31,104 +31,42 @@
 
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
-    <div class="pa3 ttu tracked sourcemed lh-title tc">
-      <p class="f4 black-80">Fashion and Drink According to Lola</p>
-    </div>
+
+    <!--LOCATION NAME-->
+      <div class="ttu tc f3 black-80 pt3 sourcemed">
+      <p class=""><span class="" id="location-name"></span></p>
+      </div>
+
+      <!--CONDITION-->
+      <div class="f5 black-80 pv1">
+      <p class="tc"><span id="condition"></span></p>
+      </div>
+
+    <!--LARGE TEMPERATURE-->
+      <div class="tempy tc">
+      <p class="">  <span id="temp"></span>&deg; F</p>
+      </div>
+
+
+
 
 <!--MAIN FLEX BOX-->
 <div class="maincontent flex flex-column flex-row-l justify-between">
-
-
-
-
 
   <!--FIRST DIV IN FLEX BOX, LOLA IMAGES-->
   <div class="lolas center white">
   </div>
 
+    <!--SECOND DIV IN FLEX BOX, TEMPS-->
+    <div class="content bg-black-05 pa3">
 
-
-
-  <!--SECOND DIV IN FLEX BOX, TEMPS-->
-  <div class="content bg-black-05 pa3">
-
-      <!--LOCATION NAME-->
-        <div class="ttu tracked">
-        <p class=""><span class="" id="location-name"></span></p>
-        </div>
-
-
-      <div class="flex flex-column">
-
-      <!--LARGE TEMPERATURE-->
-            <div class="tempy tl">
-            <p class="">  <span id="temp"></span>&deg; F</p>
-            </div>
-
-
-      <!--DETAILS-->
-          <div class="pt3 flex flex-row justify-between">
-
-
-            <!--START min max flex-->
-            <div class="flex flex-column">
-
-              <div class="tracked f7 ttu">
-                <p>High &amp; Low </p>
-              </div>
-          <!--max and min temps-->
-          <div class="flex flex-row pb2 pt1">
-           <p class=""><span id="temp-max">&deg;</span>&deg; F</p>
-           <p class="ph2"> / </p>
-            <p class=""><span id="temp-min">&deg;</span>&deg; F</p>
-          </div>
-
-            </div>
-            <!--END min max flex-->
-
-
-            <!--START Conditions Flex-->
-            <div class="flex flex-column">
-
-              <div class="tracked f7 ttu">
-                <p>Details</p>
-              </div>
-              <!--conditions and wind -->
-            <p class="pt1">
-            <span class="cha" id="condition-description"></span>
-            </p>
-
-          </div>
-          <!--END Conditions Flex-->
-
-          <!--START Wind Flex-->
-          <div class="flex flex-column">
-
-            <div class="tracked f7 ttu">
-              <p>Wind Speed</p>
-            </div>
-
-            <p class="pt1"><span id="wind-speed"></span> Mph </p>
-
-          </div>
-          <!--END Wind Flex-->
-
-
-
-
-          </div>
-
-    </div>
 
     <!--location display-->
-
-
-
 
         <!--input form-->
         <div class="flex flex-row pt3">
           <div class="pr1">
-      </div>
+        </div>
             <form class="" id="location-search" class="">
             <input class="f3 source" type="text" id="area" value="Boston">
             </form>
@@ -160,11 +98,27 @@
 
   <!--hidden information (can't delete)-->
   <div class="hidethis">
-      <p class="f4"><span id="condition"></span></p>
+
       <!--country-->
       <div class="">
       <p><span class="" id="country"></span></p>
       </div>
+
+      <!--conditions-->
+      <p class="pt1 tc">
+      <span class="cha" id="condition-description"></span>
+      </p>
+
+
+      <!--max and min temps-->
+      <div class="flex flex-row pb2 pt1">
+       <p class=""><span id="temp-max">&deg;</span>&deg; F</p>
+       <p class="ph2"> / </p>
+        <p class=""><span id="temp-min">&deg;</span>&deg; F</p>
+      </div>
+
+          <!--conditions and wind -->
+        <p class="pt1"><span id="wind-speed"></span> Mph </p>
   </div>
 
 
