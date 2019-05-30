@@ -29,84 +29,92 @@
   <div class="source">
 
 
-
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
 <!--MAIN FLEX BOX-->
 <div class="maincontent flex flex-column justify-between">
 
-
-<div class="flex flex-row justify-between">
-    <div class="ttu tracked f4 pa3 bluedark">
-    <p><span class="" id="location-name"></span></p>
-    </div>
-
-  <!--input form-->
-  <div class="lightgray flex flex-row pa3">
-    <div class="pr1">
-<img class="mw-100 hang pr1" src="images/search.svg" alt="">
-</div>
-      <form class="" id="location-search" class="">
-      <input class="f5 lightgray source" type="text" id="area" value="Boston">
-      </form>
+  <div class="pa4 ttu tracked sourcemed w-75 lh-title">
+    <p class="f3 black-80">Fashion and Drink According to Lola</p>
   </div>
-</div>
 
 
 
   <!--FIRST DIV IN FLEX BOX, LOLA IMAGES-->
-  <div class="lolas center bg-light-gray">
+  <div class="lolas center white">
   </div>
 
+
+
+
   <!--SECOND DIV IN FLEX BOX, TEMPS-->
-  <div class="content flex flex-column ph3 pt2">
+  <div class="content bg-black-05 ph4 pt3">
+
+      <!--LOCATION NAME-->
+        <div class="ttu tracked">
+        <p class=""><span class="" id="location-name"></span></p>
+        </div>
 
 
-            <!--current temp-->
-            <div class="tempy tl">
+      <div class="flex flex-row justify-start items-center">
+
+      <!--LARGE TEMPERATURE-->
+            <div class="tempy tl pr4">
             <p class="">  <span id="temp"></span>&deg; F</p>
             </div>
 
-            <!--description-->
-            <div class="flex flex-column">
 
-            <p class="lightgray f4 pb1">Today's Essentials:</p>
-            <p class="lightgray f4">Sunnies, Towel, Pina Colada</p>
+      <!--DETAILS-->
+          <div class="bl pl4">
+
+          <!--max and min temps-->
+          <div class="flex flex-row pb2">
+           <p class="">H <span id="temp-max">&deg;</span>&deg; F</p>
+           <p class="ph2"> / </p>
+
+            <p class="">L <span id="temp-min">&deg;</span>&deg; F</p>
           </div>
 
+            <!--conditions and wind -->
+            <p class="pb2">
+            <span class="cha" id="condition-description"></span>
+            </p>
 
+            <p class=""><span id="wind-speed"></span> Mph Winds </p>
 
-
+          </div>
 
     </div>
+
+    <!--location display-->
+
+
+
+
+        <!--input form-->
+        <div class="flex flex-row pa3">
+          <div class="pr1">
+      </div>
+            <form class="" id="location-search" class="">
+            <input class="f3 source" type="text" id="area" value="Boston">
+            </form>
+        </div>
+
+
+
+      <!--END OF SECOND DIV IN FLEX BOX, TEMPS-->
+      </div>
+
+
+
+
+
 
 
 
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -114,49 +122,15 @@
   </div>
 
 
+
+
   <!--hidden information (can't delete)-->
   <div class="hidethis">
-    <div class="">
-    <span id="condition-description"></span>
-    </div>
-
-
-    <div class="ttu tracked pb2 tl f3">
-    <p><span class="hidethis" id="location-name"></span></p>
-    </div>
-
-  <!--country-->
-    <div class="">
+      <p class="f4"><span id="condition"></span></p>
+      <!--country-->
+      <div class="">
       <p><span class="" id="country"></span></p>
-    </div>
-
-
-    <!--max and min temps-->
-    <div class="flex flex-row justify-center f5 pt3 sourcemed">
-     <p class="pr2"><span id="temp-max">&deg;</span>&deg; F</p>
-
-     <p> / </p>
-
-      <p class="pl2"><span id="temp-min">&deg;</span>&deg; F</p>
-    </div>
-
-
-    <div class="flex flex-row justify-between ph5 pt5 pb0">
-                <!--conditions-->
-                <div class="tc ttu">
-                  <p class="f7 pb1">Conditions</p>
-                  <p class="f5 sourcemed"><span id="condition"></span></p>
-                </div>
-
-                <!--wind speed-->
-                <div class="tc ttu">
-                  <p class="f7 pb1">Wind Speed</p>
-                  <p class="f5 sourcemed"><span id="wind-speed"></span> mph </p>
-                </div>
-
-    </div>
-
-
+      </div>
   </div>
 
 
@@ -165,6 +139,7 @@
 
 
 
+<!--END OF BODY-->
 
   </body>
 

@@ -37,19 +37,13 @@ font-weight: 700;
 }
 
 
-/*font color light-gray*/
-.lightgray {
-  color: #B3B5B7;
-}
+
 
 .tempy {
-  color: #4F545E;
   font-size: 5rem;
 }
 
-.bluedark {
-  color: #4F545E;
-}
+
 
 
 /*input box style*/
@@ -58,7 +52,6 @@ padding: 0px 0px 5px 0px;
 border: transparent;
 background-color: transparent;
 border-bottom: 1px solid #B3B5B7;
-
 }
 
 textarea:focus, input:focus{
@@ -72,7 +65,6 @@ textarea:focus, input:focus{
   overflow: hidden;
   display:block;
   position: relative;
-  padding-bottom: 100px;
 }
 
 
@@ -83,11 +75,20 @@ textarea:focus, input:focus{
   background-size: contain;
   height: 60vh;
   width: 100%;
-  border: 20px solid #EEEEEE;
+  border: 20px solid white;
+
 }
 
 
-/*2nd half - the content
+/*capitalizing the condition description*/
+#condition-description {
+  text-transform: capitalize;
+}
+
+
+
+
+/*2nd half - use for media query?
 .content {
   position: fixed;
   bottom: 0;
@@ -129,7 +130,7 @@ img {
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-sweater.svg);
+  background-image: url(/images/lola-sweater01.svg);
 
 }
 
