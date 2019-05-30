@@ -57,7 +57,8 @@ input {
 padding: 0px 0px 5px 0px;
 border: transparent;
 background-color: transparent;
-border-bottom: 0px solid #B3B5B7;
+border-bottom: 1px solid #B3B5B7;
+
 }
 
 textarea:focus, input:focus{
@@ -116,17 +117,11 @@ img {
 
 
 /*heights*/
-.footer {
-  position: absolute;
-}
 
-.bottomy {
-position: relative;
-bottom: 0;
-}
+
 
 .hang {
-  height: 30px;
+  height: 20px;
 }
 
 
@@ -134,7 +129,7 @@ bottom: 0;
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-cloud.svg);
+  background-image: url(/images/lola-sweater.svg);
 
 }
 
@@ -143,7 +138,7 @@ bottom: 0;
 }
 
 .hot .lolas {
-  background-image: url(/images/lola-hot.svg);
+  background-image: url(/images/lola-marg.svg);
 }
 
 
@@ -162,6 +157,8 @@ bottom: 0;
 .snow .lolas {
   background-image: url(/images/lola-snow.svg);
 }
+
+
 
 
 
