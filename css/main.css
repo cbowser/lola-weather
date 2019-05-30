@@ -80,6 +80,8 @@ textarea:focus, input:focus{
 }
 
 
+
+
 /*capitalizing the condition description*/
 #condition-description {
   text-transform: capitalize;

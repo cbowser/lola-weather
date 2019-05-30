@@ -31,12 +31,14 @@
 
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
-<!--MAIN FLEX BOX-->
-<div class="maincontent flex flex-column justify-between">
+    <div class="pa3 ttu tracked sourcemed lh-title tc">
+      <p class="f4 black-80">Fashion and Drink According to Lola</p>
+    </div>
 
-  <div class="pa3 ttu tracked sourcemed lh-title tc">
-    <p class="f4 black-80">Fashion and Drink According to Lola</p>
-  </div>
+<!--MAIN FLEX BOX-->
+<div class="maincontent flex flex-column flex-row-l justify-between">
+
+
 
 
 
@@ -56,31 +58,63 @@
         </div>
 
 
-      <div class="flex flex-row justify-start items-center">
+      <div class="flex flex-column">
 
       <!--LARGE TEMPERATURE-->
-            <div class="tempy tl pr3">
+            <div class="tempy tl">
             <p class="">  <span id="temp"></span>&deg; F</p>
             </div>
 
 
       <!--DETAILS-->
-          <div class="bl pl3">
+          <div class="pt3 flex flex-row justify-between">
 
+
+            <!--START min max flex-->
+            <div class="flex flex-column">
+
+              <div class="tracked f7 ttu">
+                <p>High &amp; Low </p>
+              </div>
           <!--max and min temps-->
-          <div class="flex flex-row pb2">
-           <p class="">H <span id="temp-max">&deg;</span>&deg; F</p>
+          <div class="flex flex-row pb2 pt1">
+           <p class=""><span id="temp-max">&deg;</span>&deg; F</p>
            <p class="ph2"> / </p>
-
-            <p class="">L <span id="temp-min">&deg;</span>&deg; F</p>
+            <p class=""><span id="temp-min">&deg;</span>&deg; F</p>
           </div>
 
-            <!--conditions and wind -->
-            <p class="pb2">
+            </div>
+            <!--END min max flex-->
+
+
+            <!--START Conditions Flex-->
+            <div class="flex flex-column">
+
+              <div class="tracked f7 ttu">
+                <p>Details</p>
+              </div>
+              <!--conditions and wind -->
+            <p class="pt1">
             <span class="cha" id="condition-description"></span>
             </p>
 
-            <p class=""><span id="wind-speed"></span> Mph Winds </p>
+          </div>
+          <!--END Conditions Flex-->
+
+          <!--START Wind Flex-->
+          <div class="flex flex-column">
+
+            <div class="tracked f7 ttu">
+              <p>Wind Speed</p>
+            </div>
+
+            <p class="pt1"><span id="wind-speed"></span> Mph </p>
+
+          </div>
+          <!--END Wind Flex-->
+
+
+
 
           </div>
 
