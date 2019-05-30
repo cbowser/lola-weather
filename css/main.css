@@ -54,8 +54,9 @@ background-color: transparent;
 
 .search-container {
   background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px;
+    width: 100%;
 }
 
 textarea:focus, input:focus{
@@ -73,9 +74,30 @@ button:focus{
     outline: none;
 }
 
-button:hover {
-  background-color: blue;
+
+/*FONT AWESOME ICONS*/
+
+.fa-search {
+  color: #777777;
+  font-size: 30px;
 }
+.fa-search:hover {
+  color: #357EDD;
+}
+
+.fa-arrow-right {
+  color: #777777;
+}
+.fa-arrow-right:hover {
+  color: #357EDD;
+}
+
+
+.toparea {
+  height: 10vh;
+}
+
+
 
 /*main flex box*/
 .maincontent {
@@ -184,10 +206,15 @@ img {
 }
 
 
-
-
-
 /*media query
+@media only screen and (max-width:500px) {
+  .search-container {
+    width: 100%;
+  }
+
+}
+
+
 @media only screen and (max-width:500px) {
   .lolas {
     margin:0;

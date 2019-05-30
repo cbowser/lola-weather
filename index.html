@@ -33,35 +33,30 @@
 
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
-<div class="bg-black-05 pa3">
+<div class="pa3 toparea bg-black-05">
 
   <!--input form-->
-
-      <div class="search-container">
-      <form class="" id="location-search" class="">
-        <input class="f5 ttu source" type="text" id="area" value="Boston">
-        <button type="submit"><span style="color: Dodgerblue;"><i class="fas fa-search"></i></span></button>
-      </form>
-    </div>
+  <div class="tr">
+    <button onclick="myFunction()"><i class="fas fa-search"></i></button>
+  </div>
 
 
-
-    <!--LOCATION NAME-->
-      <div class="ttu tc f4 black-80 pt3 sourcemed">
-      <p class=""><span class="" id="location-name"></span></p>
-      </div>
-
-      <!--CONDITION-->
-      <div class="f5 black-80 pv1">
-      <p class="tc"><span id="condition"></span></p>
-      </div>
-
-    <!--LARGE TEMPERATURE-->
-      <div class="tempy tc">
-      <p class="">  <span id="temp"></span>&deg; F</p>
-      </div>
 
 </div>
+
+
+<div class="hidethis bg-black-05 ph5 pv0" id="searchID">
+  <div class="search-container">
+  <form class="pa1" id="location-search" class="">
+    <input class="f5 sourcemed light-silver" type="text" id="area" value="Boston">
+    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+  </form>
+</div>
+</div>
+
+
+
+
 
 
 <!--MAIN FLEX BOX-->
@@ -71,21 +66,24 @@
   <div class="lolas center white">
   </div>
 
-    <!--SECOND DIV IN FLEX BOX, TEMPS-->
-    <div class="content bg-black-05 pa3">
-
-
-    <!--location display-->
 
 
 
 
-      <!--END OF SECOND DIV IN FLEX BOX, TEMPS-->
-      </div>
+      <!--LOCATION NAME-->
+        <div class="ttu tc f4 black-80 pt3 sourcemed">
+        <p class=""><span class="" id="location-name"></span></p>
+        </div>
 
+        <!--CONDITION-->
+        <div class="f5 black-80 pv1">
+        <p class="tc"><span id="condition"></span></p>
+        </div>
 
-
-
+      <!--LARGE TEMPERATURE-->
+        <div class="tempy tc">
+        <p class="">  <span id="temp"></span>&deg; F</p>
+        </div>
 
 
 
