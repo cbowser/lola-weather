@@ -46,18 +46,36 @@ font-weight: 700;
 
 
 
-/*input box style*/
+
 input {
-padding: 0px 0px 5px 0px;
 border: transparent;
 background-color: transparent;
-border-bottom: 1px solid #B3B5B7;
+}
+
+.search-container {
+  background-color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 textarea:focus, input:focus{
     outline: none;
 }
 
+button {
+  float: right;
+border: none;
+cursor: pointer;
+background-color: transparent;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover {
+  background-color: blue;
+}
 
 /*main flex box*/
 .maincontent {
@@ -126,6 +144,10 @@ img {
 .hang {
   height: 20px;
 }
+
+
+
+
 
 
 
