@@ -55,9 +55,11 @@ background-color: transparent;
 .search-container {
   background-color: white;
     border-radius: 30px;
-    padding: 10px;
-    width: 100%;
+    width: 60vw;
+    float: right;
 }
+
+
 
 textarea:focus, input:focus{
     outline: none;
@@ -79,7 +81,6 @@ button:focus{
 
 .fa-search {
   color: #777777;
-  font-size: 30px;
 }
 .fa-search:hover {
   color: #357EDD;
@@ -92,10 +93,14 @@ button:focus{
   color: #357EDD;
 }
 
-
-.toparea {
-  height: 10vh;
+.fa-map-marker-alt {
+    color: #777777;
 }
+
+.fa-map-marker-alt:hover {
+    color: #357EDD;
+}
+
 
 
 

@@ -33,26 +33,33 @@
 
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
-<div class="pa3 toparea bg-black-05">
+<div class="pa2 pv3 flex flex-column bg-black flex flex-row justify-between items-center">
+
+  <div class="h3 w3">
+    <img src="/images/icon.svg" alt="">
+   </div>
 
   <!--input form-->
-  <div class="tr">
-    <button onclick="myFunction()"><i class="fas fa-search"></i></button>
+  <div class="" id="searchID">
+    <div class="search-container bg-white">
+    <form class="pa1" id="location-search" class="">
+      <input class="f5 sourcemed light-silver pl2 ttu" type="text" id="area" value="Boston">
+      <button type="submit"><i class="fas fa-search"></i></i></button>
+    </form>
+  </div>
   </div>
 
 
+<!--js function reveal
+  <div class="ma0 f3">
+    <button onclick="myFunction()" id="searchIcon"><i class="fas fa-search"></i></i></button>
+  </div>-->
+
 
 </div>
 
 
-<div class="hidethis bg-black-05 ph5 pv0" id="searchID">
-  <div class="search-container">
-  <form class="pa1" id="location-search" class="">
-    <input class="f5 sourcemed light-silver" type="text" id="area" value="Boston">
-    <button type="submit"><i class="fas fa-arrow-right"></i></button>
-  </form>
-</div>
-</div>
+
 
 
 
