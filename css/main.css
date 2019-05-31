@@ -47,19 +47,30 @@ font-weight: 700;
 
 
 
-input {
-border: transparent;
-background-color: transparent;
-}
+
 
 .search-container {
   background-color: white;
     border-radius: 30px;
-    width: 60vw;
-    float: right;
+}
+
+form {
+  width: 60vw;
+}
+
+.logo {
+  width: 40vw;
+}
+
+.logo img {
+  height: 30px;
 }
 
 
+input {
+border: transparent;
+background-color: transparent;
+}
 
 textarea:focus, input:focus{
     outline: none;
