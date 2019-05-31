@@ -35,18 +35,13 @@
 
 <div class="pa2 pv3 flex flex-column bg-black flex flex-row justify-start items-center">
 
-  <div class="logo pr5">
-    <img class="" src="/images/icon.svg" alt="">
-   </div>
 
   <!--input form-->
-  <div class="" id="searchID">
-    <div class="search-container bg-white flex flex-row justify-between items-center">
-    <form class="pa1" id="location-search" class="">
+    <div class="search-container flex flex-row justify-between items-center">
+    <form class=" bg-white mh3" id="location-search" class="">
       <input class="f5 sourcemed light-silver pl2 ttu" type="text" id="area" value="Boston">
       <button type="submit"><i class="fas fa-search"></i></i></button>
     </form>
-  </div>
   </div>
 
 
@@ -77,30 +72,32 @@
 
 
 <!--SECOND DIV IN FLEX BOX, DETAILS-->
-<div class="bg-black white">
-      <!--LOCATION NAME-->
-        <div class="ttu tc f4 pt3 sourcemed">
-        <p class=""><span class="" id="location-name"></span></p>
-        </div>
-
-        <!--CONDITION-->
-        <div class="f5 pv1">
-        <p class="tc"><span id="condition"></span></p>
-        </div>
-
-      <!--LARGE TEMPERATURE-->
-        <div class="tempy tc">
-        <p class="">  <span id="temp"></span>&deg; F</p>
-        </div>
+<div class="bg-black white pa2 pb4 tc">
+  <!--LARGE TEMPERATURE-->
+    <div class="tempy">
+    <p class="">  <span id="temp"></span>&deg; F</p>
+    </div>
+  <!--LOCATION NAME-->
+    <div class="ttu f5 tracked">
+    <p class=""><span class="" id="location-name"></span></p>
+    </div>
+    <!--CONDITION-->
+    <div class="f6 pt1 i">
+    <p class=""><span id="condition"></span></p>
     </div>
 
-
-
-
+    </div>
 
 
   </div>
 
+
+<!--THIRD DIV, FOOTER-->
+<div class="flex flex-row justify-between pa2">
+  <a class="link black" href="#"><p>Wardrobe</p></a>
+  <a class="link black" href="#"><p>Drinks</p></a>
+  <a class="link black" href="#"><p>About</p></a>
+</div>
 
 
   <!--end main body div-->
