@@ -55,16 +55,13 @@ font-weight: 700;
 }
 
 form {
-  width: 60vw;
+  width: 70vw;
 }
 
 .logo {
-  width: 40vw;
+  width: 30vw;
 }
 
-.logo img {
-  height: 30px;
-}
 
 
 input {
