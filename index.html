@@ -33,13 +33,15 @@
 
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
-<div class="pa2 pv3 flex flex-column bg-black flex flex-row justify-start items-center">
+<div class="pa2 pv3 flex flex-column flex flex-row justify-start items-center bg-near-black">
 
 
   <!--input form-->
     <div class="search-container">
-    <form class="pa1 ma1 bg-white flex flex-row justify-between items-center" id="location-search" class="">
-      <input class="f5 sourcemed light-silver pl2 ttu" type="text" id="area" value="Boston">
+    <form class="pa1 ma1 bg-white ba b--black-20 flex flex-row justify-between items-center" id="location-search" class="">
+
+        <input class="f5 sourcemed gray ttu pl1" type="text" id="area" value="Boston">
+
       <button type="submit"><i class="fas fa-search"></i></i></button>
     </form>
 
@@ -73,32 +75,48 @@
 
 
 <!--SECOND DIV IN FLEX BOX, DETAILS-->
-<div class="bg-black white pa2 pb4 tc">
+<div class="pa2 pb4">
+
+  <!--LOCATION NAME-->
+    <div class="ttu tracked f5 pa0 ma0 flex flex-row items-center">
+      <p><i class="fas fa-map-marker-alt f6 pr2 black-50"></i></p>
+    <p class="black-50"><span class="" id="location-name"></span></p>
+    </div>
   <!--LARGE TEMPERATURE-->
-    <div class="tempy">
+    <div class="tempy black-70">
     <p class="">  <span id="temp"></span>&deg; F</p>
     </div>
-  <!--LOCATION NAME-->
-    <div class="ttu f5 tracked">
-    <p class=""><span class="" id="location-name"></span></p>
+
+
+    <!--warm paragraph-->
+    <div class="pt2 f5 hidethis black-50 warmpara">
+      <p class="pb1">Lola's Fashion Essentials:</p>
+    <p>Sweatshirt or Tee weather paired with a PBR. </p>
     </div>
-    <!--CONDITION-->
-    <div class="f6 pt1 i">
-    <p class=""><span id="condition"></span></p>
+
+    <!--hot paragraph-->
+    <div class="pt2 f5 hidethis hotpara">
+      <p class="pb1 ttu tracked">Lola Recommends...</p>
+    <p>Hawaiian shirts </p>
     </div>
 
     </div>
+
+    <!--LOCATION NAME-->
+      <div class="ttu f5 tracked">
+      <p class=""><span class="" id="location-name"></span></p>
+      </div>
 
 
   </div>
 
 
-<!--THIRD DIV, FOOTER-->
+<!--THIRD DIV, FOOTER
 <div class="flex flex-row justify-between pa2">
   <a class="link black" href="#"><p>Wardrobe</p></a>
   <a class="link black" href="#"><p>Drinks</p></a>
   <a class="link black" href="#"><p>About</p></a>
-</div>
+</div>-->
 
 
   <!--end main body div-->
@@ -130,6 +148,11 @@
 
           <!--conditions and wind -->
         <p class="pt1"><span id="wind-speed"></span> Mph </p>
+
+        <!--CONDITION-->
+        <div class="f6 pt1 i">
+        <p class=""><span id="condition"></span></p>
+        </div>
   </div>
 
 

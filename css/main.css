@@ -50,12 +50,11 @@ font-weight: 700;
 
 
 .search-container {
-    border-radius: 30px;
     width:100vw;
 }
 
 form {
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 
@@ -98,13 +97,9 @@ button:focus{
   color: #357EDD;
 }
 
-.fa-map-marker-alt {
-    color: #777777;
-}
 
-.fa-map-marker-alt:hover {
-    color: #357EDD;
-}
+
+
 
 
 
@@ -177,8 +172,14 @@ img {
   height: 20px;
 }
 
+/*Reveal Recommendation per weather*/
+.warm .warmpara {
+  display: block;
+}
 
-
+.hot .hotpara {
+  display: block;
+}
 
 
 
