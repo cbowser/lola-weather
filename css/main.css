@@ -176,7 +176,7 @@
 
 
 
-
+/*input*/
 .search-container {
     width:100vw;
 }
@@ -184,8 +184,6 @@
 form {
   border-radius: 5px;
 }
-
-
 
 
 input {
@@ -292,6 +290,13 @@ img {
 
 
 
+/*line heights*/
+
+.description p {
+  line-height: 1.5;
+}
+
+
 /*heights*/
 
 
@@ -309,6 +314,9 @@ img {
   display: block;
 }
 
+.hot .maindiv {
+  background-color: #fffaff;
+}
 
 
 
@@ -325,6 +333,8 @@ img {
 
 .hot .lolas {
   background-image: url(/images/lola-marg.svg);
+  background-color: #fffaff;
+  border-color: #fffaff;
 }
 
 
