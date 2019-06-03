@@ -251,6 +251,7 @@ button:focus{
   height: 60vh;
   width: 100%;
   border: 20px solid white;
+  background-color: white;
 
 }
 
@@ -318,6 +319,10 @@ img {
   display: block;
 }
 
+.hot .maindiv {
+  background-color: #FBF1A9;
+}
+
 
 
 
@@ -334,8 +339,6 @@ img {
 
 .hot .lolas {
   background-image: url(/images/lola-marg.svg);
-  background-color: #FBFBE4;
-  border-color: #FBFBE4;
 }
 
 
