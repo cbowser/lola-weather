@@ -311,7 +311,7 @@ img {
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-sweater_2.svg);
+  background-image: url(/images/lola-sweater02.svg);
 
 }
 
@@ -320,26 +320,51 @@ img {
 }
 
 .hot .lolas {
-  background-image: url(/images/lola-marg.svg);
+  background-image: url(/images/lola-hot01.svg);
 }
 
 
 .rain .lolas {
-  background-image: url(/images/lola-rain.svg);
+  background-image: url(/images/lola-rain01.svg);
 }
 
 .drizzle .lolas {
-  background-image: url(/images/lola-rain.svg);
+  background-image: url(/images/lola-rain01.svg);
 }
 
 .thunderstorm .lolas {
-  background-image: url(/images/lola-rain.svg);
+  background-image: url(/images/lola-rain01.svg);
 }
 
 .snow .lolas {
-  background-image: url(/images/lola-snow.svg);
+  background-image: url(/images/lola-cold.svg);
 }
 
+
+
+/*ANIMATIONS*/
+
+.cloudyday {
+  height: 100%;
+  width: 25%;
+  background-image: url(/images/cloud-test.svg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.clouds .cloudyday {
+  top: 10%;
+  animation-name: cloudyday;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudyday {
+  0% {left: -100%;}
+  100% {left: 100%;}
+
+}
 
 /*media query
 @media only screen and (max-width:500px) {
