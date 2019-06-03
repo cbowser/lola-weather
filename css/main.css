@@ -345,25 +345,47 @@ img {
 /*ANIMATIONS*/
 
 .cloudyday {
-  height: 100%;
+  height: 25%;
   width: 25%;
-  background-image: url(/images/cloud-test.svg);
-  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cloudyday2 {
+  height: 25%;
+  width: 25%;
   position: relative;
 }
 
 .clouds .cloudyday {
+  display: block;
   top: 10%;
+  background-image: url(/images/cloud-test.svg);
+  background-repeat: no-repeat;
   animation-name: cloudyday;
-  animation-duration: 20s;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.clouds .cloudyday2 {
+  display: block;
+  top: 10%;
+  background-image: url(/images/cloud-test.svg);
+  background-repeat: no-repeat;
+  animation-name: cloudyday2;
+  animation-duration: 25s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 @keyframes cloudyday {
   0% {left: -100%;}
-  100% {left: 100%;}
+  100% {left: 300%;}
+}
 
+@keyframes cloudyday2 {
+  0% {right: -200%;}
+  100% {right: 100%;}
 }
 
 /*media query
