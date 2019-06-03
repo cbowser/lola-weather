@@ -209,24 +209,9 @@ button:focus{
 
 /*FONT AWESOME ICONS*/
 
-.fa-search {
-  color: #777777;
+.fas {
+  color: rgba(0,0,0,.8);
 }
-.fa-search:hover {
-  color: #357EDD;
-}
-
-.fa-arrow-right {
-  color: #777777;
-}
-.fa-arrow-right:hover {
-  color: #357EDD;
-}
-
-.fa-map-marker-alt {
-  color: #777777;
-}
-
 
 
 
