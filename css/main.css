@@ -168,7 +168,7 @@
 
 
 .tempy {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 
@@ -221,6 +221,10 @@ button:focus{
 }
 .fa-arrow-right:hover {
   color: #357EDD;
+}
+
+.fa-map-marker-alt {
+  color: #777777;
 }
 
 
@@ -293,7 +297,7 @@ img {
 /*line heights*/
 
 .description p {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 
@@ -314,9 +318,6 @@ img {
   display: block;
 }
 
-.hot .maindiv {
-  background-color: #fffaff;
-}
 
 
 
@@ -333,8 +334,8 @@ img {
 
 .hot .lolas {
   background-image: url(/images/lola-marg.svg);
-  background-color: #fffaff;
-  border-color: #fffaff;
+  background-color: #FBFBE4;
+  border-color: #FBFBE4;
 }
 
 

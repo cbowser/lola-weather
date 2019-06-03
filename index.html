@@ -33,18 +33,23 @@
   <!--MAIN BODY DIV-->
   <div class="grotesk maindiv">
 
+    <div class="ph3 pt3 f4">
+      <p class="groteskbold ttu tracked tc">Lola the pug</p>
+    </div>
+
     <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
 
 <div class="pa2 pv3 flex flex-column flex flex-row justify-start items-center">
 
 
   <!--input form-->
+  <p class="f6 pr1"><i class="fas fa-map-marker-alt"></i> </p>
     <div class="search-container">
     <form class="pa1 ma1 bg-black-05 flex flex-row justify-between items-center" id="location-search" class="">
 
         <input class="f6 aktivreg tracked gray ttu pl1" type="text" id="area" value="Boston">
 
-      <button type="submit"><i class="fas fa-search"></i></i></button>
+      <button type="submit"><i class="f6 fas fa-search"></i></i></button>
     </form>
 
   </div>
@@ -60,10 +65,7 @@
 
 
 
-<div class="ph3 f3">
 
-  <p class="groteskbold ttu tracked">lola</p>
-</div>
 
 
 
@@ -82,34 +84,30 @@
 
 
 <!--SECOND DIV IN FLEX BOX, DETAILS-->
-<div class="black-90 pa3">
+<div class="pa3">
 
-  <!--LOCATION NAME-->
-    <div class="ttu tracked f7 pa0 ma0">
 
-    <p class="grotesklight"><span class="" id="location-name"></span></p>
-    </div>
   <!--LARGE TEMPERATURE-->
-    <div class="grotesksemi">
-    <p class="f1"><span id="temp"></span>&deg; F</p>
+    <div class="grotesksemi black-80">
+    <p class="tempy bb b--black-20"><span id="temp"></span>&deg; F</p>
     </div>
+
+
 
     <!--warm paragraph-->
     <div class="description hidethis warmpara grotesksemi">
-    <p class="f4">It's warm, but not hot. A sweatshirt or tee will do. Complete the look with a PBR and a pair of vans. </p>
+    <p class="f2">It's warm, but not hot. A sweatshirt or tee will do. Complete the look with a PBR and a pair of vans. </p>
     </div>
 
     <!--hot paragraph-->
-    <div class="description hidethis hotpara pt3">
-    <p class="f4 grotesksemi">It's warm, but not hot. A sweatshirt or tee will do. Complete the look with a PBR and a pair of vans. </p>
+    <div class="description hidethis hotpara pt2">
+      <p class="f5 grotesksemi black-50">Today's Essentials:</p>
+    <p class="f5 grotesksemi black-50">Sunnies, Hawaiian Shirt, Margarita</p>
     </div>
 
     </div>
 
-    <!--LOCATION NAME-->
-      <div class="ttu f5 tracked">
-      <p class=""><span class="" id="location-name"></span></p>
-      </div>
+
 
 
   </div>
@@ -131,6 +129,13 @@
 
   <!--hidden information (can't delete)-->
   <div class="hidethis">
+
+
+    <!--LOCATION NAME-->
+      <div class="ttu tracked f7 pa0 ma0">
+
+      <p class="grotesklight"><span class="" id="location-name"></span></p>
+      </div>
 
       <!--country-->
       <div class="">
