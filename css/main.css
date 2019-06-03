@@ -234,7 +234,7 @@ button:focus{
   background-position: center;
   background-size: contain;
   height: 60vh;
-  width: 80%;
+  width: 75%;
   background-color: white;
 
 }
@@ -311,7 +311,7 @@ img {
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-sweater01.svg);
+  background-image: url(/images/lola-sweater_2.svg);
 
 }
 
