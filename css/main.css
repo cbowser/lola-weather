@@ -227,7 +227,7 @@ button:focus{
 
 
 .tempy {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 
@@ -249,7 +249,7 @@ button:focus{
   background-position: center;
   background-size: contain;
   height: 60vh;
-  width: 75%;
+  width: 100%;
   background-color: white;
 
 }
@@ -315,6 +315,8 @@ footer {
 }
 
 
+
+
 /*heights*/
 
 
@@ -336,12 +338,20 @@ footer {
   display: block;
 }
 
+.cold .coldpara {
+  display: block;
+}
+
 .rain .warmpara {
   display: none;
 }
 
-.cold .coldpara {
-  display: block;
+.rain .hotpara {
+  display: none;
+}
+
+.rain .coldpara {
+  display: none;
 }
 
 
@@ -359,7 +369,7 @@ footer {
 }
 
 .hot .lolas {
-  background-image: url(/images/lola-marg.svg);
+  background-image: url(/images/hot-bg3.png);
 }
 
 
