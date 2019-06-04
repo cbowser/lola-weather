@@ -168,7 +168,7 @@
 
 
 .tempy {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 
@@ -214,7 +214,9 @@ button:focus{
 }
 
 
-
+.smalltext {
+  font-size: 10px;
+}
 
 
 
@@ -282,7 +284,7 @@ img {
 /*line heights*/
 
 .description p {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 
