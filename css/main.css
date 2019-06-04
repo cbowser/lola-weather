@@ -167,10 +167,6 @@
 
 
 
-.tempy {
-  font-size: 60px;
-}
-
 
 
 
@@ -178,7 +174,7 @@
 
 /*input*/
 .search-container {
-    width:100vw;
+    width:400px;
 }
 
 form {
@@ -207,6 +203,13 @@ button:focus{
 }
 
 
+@media only screen and (max-width:500px) {
+  .search-container {
+    width: 75vw;
+  }
+}
+
+
 /*FONT AWESOME ICONS*/
 
 .fas {
@@ -217,6 +220,12 @@ button:focus{
 .smalltext {
   font-size: 14px;
 }
+
+
+.tempy {
+  font-size: 60px;
+}
+
 
 
 
@@ -285,6 +294,20 @@ img {
 
 .description p {
   line-height: 1.4;
+}
+
+.maindiv {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 

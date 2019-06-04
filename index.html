@@ -31,37 +31,37 @@
 
 
   <!--MAIN BODY DIV-->
-  <div class="grotesk maindiv pb4">
+  <div class="grotesk maindiv">
 
-    <div class="ph3 pt3 f3">
-      <p class="groteskbold ttu tracked tc">Lola the pug</p>
+
+<!--TITLE-->
+    <div class="ph3 pt3 f3 tc">
+      <p class="groteskbold ttu tracked">What should I wear Today, Lola?</p>
     </div>
 
-    <!-- location icon <img class="mw-100" src="images/location.png" alt="">-->
+
+<!-- DIV 1 INPUT FORM-->
 
 <div class="pa2 pv3 flex flex-column flex flex-row justify-start items-center">
 
 
   <!--input form-->
+  <div class="flex flex-row items-center justify-start center">
+
   <p class="f5 pr1"><i class="fas fa-map-marker-alt"></i> </p>
     <div class="search-container">
     <form class="pa2 ma1 bg-black-05 flex flex-row justify-between items-center" id="location-search" class="">
 
-        <input class="f5 grotesk tracked gray ttu pl1" type="text" id="area" value="Boston">
+        <input class="f5 grotesk gray ttu pl1" type="text" id="area" value="Boston">
 
       <button type="submit"><i class="f5 fas fa-search"></i></i></button>
     </form>
 
+    </div>
+    </div>
+
   </div>
-
-
-<!--js function reveal
-  <div class="ma0 f3">
-    <button onclick="myFunction()" id="searchIcon"><i class="fas fa-search"></i></i></button>
-  </div>-->
-
-
-</div>
+  <!--end of input form-->
 
 
 
@@ -76,7 +76,7 @@
 
 
 <!--MAIN FLEX BOX-->
-<div class="maincontent flex flex-column flex-row-l justify-between">
+<div class="maincontent flex flex-column flex-row-l justify-between items-end-l pt4-l">
 
   <!--FIRST DIV IN FLEX BOX, LOLA IMAGES-->
   <div class="lolas center white">
@@ -90,16 +90,11 @@
 
 
 <!--SECOND DIV IN FLEX BOX, DETAILS-->
-<div class="pa3 pr5-l">
+<div class="pa3 pr5-l w-50-l">
 
-  <!--LOCATION NAME-->
-    <div class="ttu smalltext pb0 mb0 gray">
-
-    <p class="grotesklight"><span class="" id="location-name"></span></p>
-    </div>
 
   <!--LARGE TEMPERATURE-->
-    <div class="groteskmed black-80 pt0 pb3">
+    <div class="groteskmed black-80 pt0 pb1">
     <p class="tempy pb2"><span id="temp"></span>&deg; F</p>
     </div>
 
@@ -125,8 +120,8 @@
 
 
     <!--hot paragraph-->
-    <div class="description hidethis warmpara pt3 bt b--moon-gray">
-    <p class="black groteskmed f4">Grab a Designer Sweatshirt, PBR, and a Diary. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="description hidethis warmpara pv4">
+    <p class="black groteskmed f4">It's sweatshirt weather. Grab a designer sweatshirt, a PBR and a diary.</p>
     </div>
 
     <!--hot paragraph-->
@@ -144,15 +139,15 @@
 
 
 
-
-  <!--end main body div-->
-  </div>
-
   <!--THIRD DIV, links-->
-  <div class="flex flex-row justify-between ph3 f3 pb3">
+  <footer class="flex flex-row justify-between f4 bg-light-gray pa3 ph4-l">
     <a class="link black" href="#"><i class="fas fa-arrow-up"></i></a>
     <a class="link black" href="wardrobe.html"><i class="fas fa-tshirt"></i></a>
     <a class="link black" href="#"><p><i class="fas fa-question"></i></p></a>
+  </footer>
+
+
+  <!--end main body div-->
   </div>
 
 
@@ -162,6 +157,11 @@
   <!--hidden information (can't delete)-->
   <div class="hidethis">
 
+    <!--LOCATION NAME-->
+      <div class="ttu smalltext pb0 mb0 gray">
+
+      <p class="grotesklight"><span class="" id="location-name"></span></p>
+      </div>
 
     <!--LOCATION NAME-->
       <div class="ttu tracked f7 pa0 ma0">
