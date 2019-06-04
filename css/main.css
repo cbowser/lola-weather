@@ -218,7 +218,11 @@ button:focus{
 
 
 .smalltext {
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.medtext {
+  font-size: 16px;
 }
 
 
@@ -328,7 +332,17 @@ footer {
   display: block;
 }
 
+.rain .rainpara {
+  display: block;
+}
 
+.rain .warmpara {
+  display: none;
+}
+
+.cold .coldpara {
+  display: block;
+}
 
 
 
@@ -345,7 +359,7 @@ footer {
 }
 
 .hot .lolas {
-  background-image: url(/images/lola-hot01.svg);
+  background-image: url(/images/lola-marg.svg);
 }
 
 
