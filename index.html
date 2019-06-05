@@ -31,7 +31,7 @@
 
 
   <!--MAIN BODY DIV-->
-  <div class="grotesk maindiv flex flex-column justify-between bg-dark-blue">
+  <div class="grotesk maindiv flex flex-column justify-between bg-black">
 
 
 <!--TITLE
@@ -45,17 +45,17 @@
 <div class="pa4 flex flex-column flex flex-row-l justify-between items-center">
 
 
-<div class="white ttu tracked f3">
-  Lola's Weather
+<div class="white ttu tracked f4 tc pb3 pb0-l">
+  What Should I Wear Today, Lola?
 </div>
   <!--input form-->
   <div class="flex flex-row items-center justify-start">
 
-  <p class="f5 pr1"><i class="fas fa-map-marker-alt"></i> </p>
+  <p class="f6 pr1"><i class="fas fa-map-marker-alt"></i> </p>
     <div class="search-container">
     <form class="pb1 ma1 flex flex-row justify-between items-center bb b--white" id="location-search" class="">
 
-        <input class="f5 grotesk white ttu" type="text" id="area" value="Boston">
+        <input class="f6 grotesklight white ttu" type="text" id="area" value="Boston">
 
       <button class="pr1" type="submit"><i class="f5 fas fa-search"></i></i></button>
     </form>
@@ -97,23 +97,23 @@
 
 
 <!--SECOND DIV IN FLEX BOX, DETAILS-->
-<div class="w-50-l bg-white tc">
+<div class="w-50-l bg-white tc pa5 pa0-l">
 
 <div class="infobox">
+  <!--LOCATION NAME-->
+    <div class="ttu tracked f7 pa0 ma0">
+
+    <p class="grotesklight"><span class="" id="location-name"></span></p>
+    </div>
   <!--LARGE TEMPERATURE-->
     <div class="grotesklight black-80">
     <p class="tempy pb2"><span id="temp"></span>&deg; F</p>
     </div>
 
-<div class="flex flex-row justify-between w5 center">
-    <!--max and min temps-->
-     <p class="f6">H <span id="temp-max">&deg;</span>&deg; F</p>
-      <p class="f6">L <span id="temp-min">&deg;</span>&deg; F</p>
+<!--CONDITION-->
+<p class="f6"><span id="condition"></span></p>
 
 
-    <!--CONDITION-->
-    <p class="f6"><span id="condition"></span></p>
-  </div>
 
 
     <!--hot paragraph-->
@@ -188,11 +188,7 @@
 
 
 
-    <!--LOCATION NAME-->
-      <div class="ttu tracked f7 pa0 ma0">
 
-      <p class="grotesklight"><span class="" id="location-name"></span></p>
-      </div>
 
       <!--country-->
       <div class="">
