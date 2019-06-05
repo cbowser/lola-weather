@@ -205,11 +205,6 @@ button:focus{
 }
 
 
-@media only screen and (max-width:500px) {
-  .search-container {
-    width: 90vw;
-  }
-}
 
 
 /*FONT AWESOME ICONS*/
@@ -255,6 +250,9 @@ button:focus{
   background-color: white;
 }
 
+.rightbox {
+  position: relative;
+}
 
 .infobox {
   position: relative;
