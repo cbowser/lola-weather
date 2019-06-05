@@ -177,9 +177,11 @@
     width:400px;
 }
 
+
+/*
 form {
   border-radius: 5px;
-}
+}*/
 
 
 input {
@@ -213,8 +215,9 @@ button:focus{
 /*FONT AWESOME ICONS*/
 
 .fas {
-  color: rgba(0,0,0,.8);
+  color: white;
 }
+
 
 
 .smalltext {
@@ -227,7 +230,7 @@ button:focus{
 
 
 .tempy {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 
@@ -239,7 +242,6 @@ button:focus{
   position: relative;
   overflow: hidden;
   display:block;
-  position: relative;
 }
 
 
@@ -247,14 +249,17 @@ button:focus{
 .lolas {
   background-repeat:no-repeat;
   background-position: center;
-  background-size: contain;
-  height: 60vh;
+  background-size: cover;
+  height: 75vh;
   width: 100%;
   background-color: white;
-
 }
 
 
+.infobox {
+  position: relative;
+  top: 40%;
+}
 
 
 /*capitalizing the condition description*/
@@ -305,15 +310,7 @@ img {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 50px;
 }
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 
 
 
@@ -334,6 +331,7 @@ footer {
   display: block;
 }
 
+
 .rain .rainpara {
   display: block;
 }
@@ -350,9 +348,18 @@ footer {
   display: none;
 }
 
+.drizzle .hotpara {
+  display: none;
+}
+
 .rain .coldpara {
   display: none;
 }
+
+.thunderstorm .hotpara {
+  display: none;
+}
+
 
 
 
@@ -360,8 +367,7 @@ footer {
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-sweater02.svg);
-
+  background-image: url(/images/lola-pbr2.png);
 }
 
 .cold .lolas {
@@ -437,6 +443,13 @@ footer {
   100% {right: 100%;}
 }
 
+
+@media only screen and (max-width:500px) {
+  .lolas {
+    height: 60vh;
+  }
+
+}
 /*media query
 @media only screen and (max-width:500px) {
   .search-container {
