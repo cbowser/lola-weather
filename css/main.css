@@ -402,6 +402,8 @@ img {
 
 /*ANIMATIONS*/
 
+/*CLOUDS*/
+
 .cloudyday {
   height: 25%;
   width: 25%;
@@ -416,29 +418,31 @@ img {
 
 .clouds .cloudyday {
   display: block;
-  top: 10%;
+  position: relative;
+  top: 5%;
   background-image: url(/images/cloud-test.svg);
   background-repeat: no-repeat;
   animation-name: cloudyday;
-  animation-duration: 50s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 .clouds .cloudyday2 {
   display: block;
-  top: 10%;
+  position: relative;
+  top: -10%;
   background-image: url(/images/cloud-test.svg);
   background-repeat: no-repeat;
   animation-name: cloudyday2;
-  animation-duration: 25s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 @keyframes cloudyday {
   0% {left: -100%;}
-  100% {left: 300%;}
+  100% {left: 100%;}
 }
 
 @keyframes cloudyday2 {
