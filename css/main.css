@@ -423,7 +423,7 @@ img {
   background-image: url(/images/cloud-test.svg);
   background-repeat: no-repeat;
   animation-name: cloudyday;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -449,6 +449,318 @@ img {
   0% {right: -200%;}
   100% {right: 100%;}
 }
+
+
+/*SUN ANIMATION*/
+.sunnyday {
+  height: 25%;
+  width: 25%;
+  position: relative;
+}
+
+.clear .sunnyday {
+    display: block;
+    left: 100%;
+    top: 5%;
+    position: relative;
+    animation: sunnyday 20s linear infinite;
+    background-image: url(/images/sun.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+@keyframes sunnyday {
+  0% {left: -30%;}
+  100% {left: 100%;}
+}
+
+
+/*RAIN ANIMATION*/
+.rainyday {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.rainyday2 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.rainyday3 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.rainyday4 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.rain .rainyday {
+  display: block;
+  top: 100%;
+  left: 80%;
+  animation: rain 5s linear infinite;
+  animation-delay: 1s;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rain .rainyday2 {
+  display: block;
+  top: -100%;
+  left: 50%;
+  animation: rain 5s linear infinite;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rain .rainyday3 {
+  display: block;
+  top: -100%;
+  left: 20%;
+  animation: rain 4s linear infinite;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rain .rainyday4 {
+  display: block;
+  top: -100%;
+  left: 40%;
+  animation: rain 4s linear infinite;
+  animation-delay: 3s;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+@keyframes rain {
+  0% {top: -100%;}
+  100% {top:100%;}
+}
+
+
+
+
+
+
+/*drizzle*/
+
+.drizzle .rainyday {
+  display: block;
+  top: 100%;
+  left: 80%;
+  animation: drizzle 15s linear infinite;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.drizzle .rainyday4 {
+  display: block;
+  top: -100%;
+  left: 40%;
+  animation: drizzle 10s linear infinite;
+  position: relative;
+  background-image: url(/images/drop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@keyframes drizzle {
+  0% {top: -100%;}
+  100% {top:100%;}
+}
+
+
+
+/*SNOW ANIMATION*/
+.snowyday {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.snowyday2 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.snowyday3 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+.snowyday4 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+}
+
+
+.snow .snowyday {
+  display: block;
+  top: 100%;
+  left: 80%;
+  animation: snowy 10s linear infinite;
+  position: relative;
+  background-image: url(/images/snow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snow .snowyday2 {
+  display: block;
+  top: -100%;
+  left: 50%;
+  animation: snowy 15s linear infinite;
+  position: relative;
+  background-image: url(/images/snow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snow .snowyday3 {
+  display: block;
+  top: -100%;
+  left: 20%;
+  animation: snowy 20s linear infinite;
+  position: relative;
+  background-image: url(/images/snow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snow .snowyday4 {
+  display: block;
+  top: -100%;
+  left: 40%;
+  animation: snowy 12s linear infinite;
+  position: relative;
+  background-image: url(/images/snow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@keyframes snowy {
+  0% {top: -100%;}
+  100% {top:100%;}
+}
+
+
+
+/*THUNDERSTORM*/
+.storm {
+  height: 30%;
+  width: 30%;
+  position: relative;
+}
+
+.thunderstorm .storm {
+    display: block;
+    left: 100%;
+    top: 5%;
+    position: relative;
+    animation: storm 20s linear infinite;
+    background-image: url(/images/thunder.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+@keyframes storm {
+  0% {left: 0%;}
+  100% {left: 100%;}
+}
+
+/*WINDY*/
+
+.windy1 {
+  height: 10%;
+  width: 30%;
+  position: relative;
+}
+
+.windy2 {
+  height: 10%;
+  width: 30%;
+  position: relative;
+}
+
+.windy .windy1 {
+    display: block;
+    left: 100%;
+    top: 5%;
+    position: relative;
+    animation: windy 4s linear infinite;
+    animation-delay: 3s;
+    background-image: url(/images/wind.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .windy .windy2 {
+      display: block;
+      right: -30%;
+      top: -40%;
+      animation: windy2 4s linear infinite;
+      background-image: url(/images/windleft.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .breezy .windy1 {
+        display: block;
+        left: 100%;
+        top: 5%;
+        position: relative;
+        animation: windy 10s linear infinite;
+        animation-delay: 3s;
+        background-image: url(/images/wind.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .breezy .windy2 {
+          display: block;
+          right: -30%;
+          top: -40%;
+          animation: windy2 15s linear infinite;
+          background-image: url(/images/windleft.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+@keyframes windy {
+  0% {left: 0%;}
+  100% {left: 100%;}
+}
+
+@keyframes windy2 {
+  0% {right: -100%;}
+  100% {right: 100%;}
+}
+
+
+
+
 
 
 @media only screen and (max-width:500px) {
