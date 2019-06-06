@@ -441,7 +441,7 @@ img {
 }
 
 @keyframes cloudyday {
-  0% {left: -100%;}
+  0% {left: -10%;}
   100% {left: 100%;}
 }
 
