@@ -451,7 +451,31 @@ img {
 }
 
 
-/*SUN ANIMATION*/
+/*SUN ANIMATION BOBBING*/
+.sunnyday {
+  height: 25%;
+  width: 25%;
+  position: relative;
+}
+
+.clear .sunnyday {
+    display: block;
+    left: 60%;
+    top: 10%;
+    position: relative;
+    animation: sunnyday 3s linear infinite;
+    background-image: url(/images/sun4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+@keyframes sunnyday {
+  0% {transform: translateY(0);}
+  50%  {transform: translateY(-10px);}
+  100%  {transform: translateY(0);}
+}
+
+/*SUN ANIMATION OLD
 .sunnyday {
   height: 25%;
   width: 25%;
@@ -472,30 +496,30 @@ img {
 @keyframes sunnyday {
   0% {left: -30%;}
   100% {left: 100%;}
-}
+}*/
 
 
 /*RAIN ANIMATION*/
 .rainyday {
-  height: 10%;
+  height: 8%;
   width: 25%;
   position: relative;
 }
 
 .rainyday2 {
-  height: 10%;
+  height: 8%;
   width: 25%;
   position: relative;
 }
 
 .rainyday3 {
-  height: 10%;
+  height: 8%;
   width: 25%;
   position: relative;
 }
 
 .rainyday4 {
-  height: 10%;
+  height: 8%;
   width: 25%;
   position: relative;
 }
