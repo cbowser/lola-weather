@@ -370,32 +370,32 @@ img {
 /*lola image for temp*/
 
 .warm .lolas {
-  background-image: url(/images/lola-pbr2.png);
+  background-image: url(/images/lola-warm.png);
 }
 
 .cold .lolas {
-  background-image: url(/images/lola-cold.svg);
+  background-image: url(/images/lola-snow2.png);
 }
 
 .hot .lolas {
-  background-image: url(/images/hot-bg3.png);
+  background-image: url(/images/lola-hot.png);
 }
 
 
 .rain .lolas {
-  background-image: url(/images/lola-rain01.svg);
+  background-image: url(/images/lola-rain.png);
 }
 
 .drizzle .lolas {
-  background-image: url(/images/lola-rain01.svg);
+  background-image: url(/images/lola-rain.png);
 }
 
 .thunderstorm .lolas {
-  background-image: url(/images/lola-rain01.svg);
+  background-image: url(/images/lola-rain.png);
 }
 
 .snow .lolas {
-  background-image: url(/images/lola-cold.svg);
+  background-image: url(/images/lola-cold.png);
 }
 
 
